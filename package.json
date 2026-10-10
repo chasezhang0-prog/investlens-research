@@ -1,0 +1,1 @@
+{"name":"investlens-research","version":"0.2.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test test.mjs","build":"node build.mjs","validate":"node scripts/validate-artifact.mjs"},"engines":{"node":">=22"}}

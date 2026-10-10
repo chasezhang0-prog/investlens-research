@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.session-key
+.runtime/
+node_modules/
+dist/
+artifacts/verification/source/*.pdf
+artifacts/verification/source/*.png
+*.sqlite3*
+.DS_Store
+__pycache__/
+.openai/*.local.*

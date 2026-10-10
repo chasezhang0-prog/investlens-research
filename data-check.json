@@ -1,0 +1,279 @@
+{
+  "verification_date": "2026-10-10",
+  "scope": "public_disclosure_snapshot_only",
+  "all_passed": true,
+  "checks_count": 48,
+  "checks": [
+    {
+      "check": "pdf-2023",
+      "passed": true,
+      "pages": 143,
+      "sha256": "2125ff97a452ea79b0d784e2432f7d224b6aecc330b644b593477d69e22f4ed1",
+      "bytes": 3563819
+    },
+    {
+      "check": "pdf-2024",
+      "passed": true,
+      "pages": 143,
+      "sha256": "5299f4940e2ce4e91084b73dc457d558b9d335fa76fbfee6227e4254eb7f4a30",
+      "bytes": 3626217
+    },
+    {
+      "check": "pdf-2025",
+      "passed": true,
+      "pages": 143,
+      "sha256": "474905deeaf0f875fc0a1b097a626c0c7852c427faadc5d7fc7816cbf45ea288",
+      "bytes": 1082847
+    },
+    {
+      "check": "2024-4-source-hash",
+      "passed": true
+    },
+    {
+      "check": "2024-4-current-revenue-in-source-page",
+      "passed": true,
+      "value": "170899152276.34",
+      "page": 5
+    },
+    {
+      "check": "2024-4-current-netProfit-in-source-page",
+      "passed": true,
+      "value": "86228146421.62",
+      "page": 5
+    },
+    {
+      "check": "2024-4-current-adjustedProfit-in-source-page",
+      "passed": true,
+      "value": "86240905977.42",
+      "page": 5
+    },
+    {
+      "check": "2024-4-current-operatingCash-in-source-page",
+      "passed": true,
+      "value": "92463692168.43",
+      "page": 5
+    },
+    {
+      "check": "2024-4-current-gross-margin-in-source-page",
+      "passed": true,
+      "value": "92.01",
+      "page": 9
+    },
+    {
+      "check": "2024-4-current-product-sum",
+      "passed": true
+    },
+    {
+      "check": "2024-4-prior-revenue-in-source-page",
+      "passed": true,
+      "value": "147693604994.14",
+      "page": 5
+    },
+    {
+      "check": "2024-4-prior-netProfit-in-source-page",
+      "passed": true,
+      "value": "74734071550.75",
+      "page": 5
+    },
+    {
+      "check": "2024-4-prior-adjustedProfit-in-source-page",
+      "passed": true,
+      "value": "74752564425.52",
+      "page": 5
+    },
+    {
+      "check": "2024-4-prior-operatingCash-in-source-page",
+      "passed": true,
+      "value": "66593247721.09",
+      "page": 5
+    },
+    {
+      "check": "2024-4-prior-gross-margin-in-source-page",
+      "passed": true,
+      "value": "92.11",
+      "page": 9
+    },
+    {
+      "check": "2024-4-prior-product-sum",
+      "passed": true
+    },
+    {
+      "check": "2024-4-revenue-yoy",
+      "passed": true,
+      "computed": "15.71",
+      "disclosed": "15.71"
+    },
+    {
+      "check": "2024-4-netProfit-yoy",
+      "passed": true,
+      "computed": "15.38",
+      "disclosed": "15.38"
+    },
+    {
+      "check": "2024-4-adjustedProfit-yoy",
+      "passed": true,
+      "computed": "15.37",
+      "disclosed": "15.37"
+    },
+    {
+      "check": "2024-4-operatingCash-yoy",
+      "passed": true,
+      "computed": "38.85",
+      "disclosed": "38.85"
+    },
+    {
+      "check": "2024-4-margin-delta-points",
+      "passed": true,
+      "computed": "-0.10",
+      "unit": "percentage_points"
+    },
+    {
+      "check": "2025-4-source-hash",
+      "passed": true
+    },
+    {
+      "check": "2025-4-current-revenue-in-source-page",
+      "passed": true,
+      "value": "168838102514.79",
+      "page": 6
+    },
+    {
+      "check": "2025-4-current-netProfit-in-source-page",
+      "passed": true,
+      "value": "82320067101.68",
+      "page": 6
+    },
+    {
+      "check": "2025-4-current-adjustedProfit-in-source-page",
+      "passed": true,
+      "value": "82293107655.25",
+      "page": 6
+    },
+    {
+      "check": "2025-4-current-operatingCash-in-source-page",
+      "passed": true,
+      "value": "61522204989.35",
+      "page": 6
+    },
+    {
+      "check": "2025-4-current-gross-margin-in-source-page",
+      "passed": true,
+      "value": "91.23",
+      "page": 10
+    },
+    {
+      "check": "2025-4-current-product-sum",
+      "passed": true
+    },
+    {
+      "check": "2025-4-prior-revenue-in-source-page",
+      "passed": true,
+      "value": "170899152276.34",
+      "page": 6
+    },
+    {
+      "check": "2025-4-prior-netProfit-in-source-page",
+      "passed": true,
+      "value": "86228146421.62",
+      "page": 6
+    },
+    {
+      "check": "2025-4-prior-adjustedProfit-in-source-page",
+      "passed": true,
+      "value": "86240905977.42",
+      "page": 6
+    },
+    {
+      "check": "2025-4-prior-operatingCash-in-source-page",
+      "passed": true,
+      "value": "92463692168.43",
+      "page": 6
+    },
+    {
+      "check": "2025-4-prior-gross-margin-in-source-page",
+      "passed": true,
+      "value": "92.01",
+      "page": 9
+    },
+    {
+      "check": "2025-4-prior-product-sum",
+      "passed": true
+    },
+    {
+      "check": "2025-4-revenue-yoy",
+      "passed": true,
+      "computed": "-1.21",
+      "disclosed": "-1.21"
+    },
+    {
+      "check": "2025-4-netProfit-yoy",
+      "passed": true,
+      "computed": "-4.53",
+      "disclosed": "-4.53"
+    },
+    {
+      "check": "2025-4-adjustedProfit-yoy",
+      "passed": true,
+      "computed": "-4.58",
+      "disclosed": "-4.58"
+    },
+    {
+      "check": "2025-4-operatingCash-yoy",
+      "passed": true,
+      "computed": "-33.46",
+      "disclosed": "-33.46"
+    },
+    {
+      "check": "2025-4-margin-delta-points",
+      "passed": true,
+      "computed": "-0.78",
+      "unit": "percentage_points"
+    },
+    {
+      "check": "2024-cross-report-revenue",
+      "passed": true
+    },
+    {
+      "check": "2024-cross-report-netProfit",
+      "passed": true
+    },
+    {
+      "check": "2024-cross-report-adjustedProfit",
+      "passed": true
+    },
+    {
+      "check": "2024-cross-report-operatingCash",
+      "passed": true
+    },
+    {
+      "check": "2024-cross-report-grossMargin",
+      "passed": true
+    },
+    {
+      "check": "2024-cross-report-wineRevenue",
+      "passed": true
+    },
+    {
+      "check": "2024-cross-report-moutaiRevenue",
+      "passed": true
+    },
+    {
+      "check": "2024-cross-report-seriesRevenue",
+      "passed": true
+    },
+    {
+      "check": "demo-fictional-unknown-values",
+      "passed": true
+    }
+  ],
+  "visual_pages_reviewed": [
+    "2024:5",
+    "2024:9",
+    "2025:6",
+    "2025:10",
+    "2023:9"
+  ],
+  "external_api_verified": false,
+  "llm_verified": false,
+  "browser_e2e_verified": false
+}

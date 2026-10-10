@@ -1,0 +1,154 @@
+TAP version 13
+# Subtest: 2024 public disclosure workflow preserves opposing margin and causal unknown
+ok 1 - 2024 public disclosure workflow preserves opposing margin and causal unknown
+  ---
+  duration_ms: 4.830209
+  type: 'test'
+  ...
+# Subtest: 2025 reversal and no cash-to-customer causal overclaim
+ok 2 - 2025 reversal and no cash-to-customer causal overclaim
+  ---
+  duration_ms: 1.040375
+  type: 'test'
+  ...
+# Subtest: different goals generate different questions and plans
+ok 3 - different goals generate different questions and plans
+  ---
+  duration_ms: 0.381541
+  type: 'test'
+  ...
+# Subtest: unrecognized arbitrary thesis remains unknown
+ok 4 - unrecognized arbitrary thesis remains unknown
+  ---
+  duration_ms: 0.20175
+  type: 'test'
+  ...
+# Subtest: custom criterion cannot silently reuse default formula
+ok 5 - custom criterion cannot silently reuse default formula
+  ---
+  duration_ms: 0.939292
+  type: 'test'
+  ...
+# Subtest: disclosure date not URL path date and no time travel
+ok 6 - disclosure date not URL path date and no time travel
+  ---
+  duration_ms: 0.368375
+  type: 'test'
+  ...
+# Subtest: prior margin uses correct prior document and fiscal period
+ok 7 - prior margin uses correct prior document and fiscal period
+  ---
+  duration_ms: 0.8
+  type: 'test'
+  ...
+# Subtest: exact cents and two decimal percent calculation
+ok 8 - exact cents and two decimal percent calculation
+  ---
+  duration_ms: 0.119334
+  type: 'test'
+  ...
+# Subtest: faults only in fictional mode, missing never zero-filled
+ok 9 - faults only in fictional mode, missing never zero-filled
+  ---
+  duration_ms: 0.559958
+  type: 'test'
+  ...
+# Subtest: duplicate metric quarantine
+ok 10 - duplicate metric quarantine
+  ---
+  duration_ms: 0.523208
+  type: 'test'
+  ...
+# Subtest: persistent timeout preserves step and limits retries
+ok 11 - persistent timeout preserves step and limits retries
+  ---
+  duration_ms: 0.282416
+  type: 'test'
+  ...
+# Subtest: crash once recovers without repeating completed reads
+ok 12 - crash once recovers without repeating completed reads
+  ---
+  duration_ms: 0.355917
+  type: 'test'
+  ...
+# Subtest: model consent and missing key is explicit fallback, no model facts
+ok 13 - model consent and missing key is explicit fallback, no model facts
+  ---
+  duration_ms: 0.459292
+  type: 'test'
+  ...
+# Subtest: model proposed questions require explicit review
+ok 14 - model proposed questions require explicit review
+  ---
+  duration_ms: 0.164666
+  type: 'test'
+  ...
+# Subtest: live key absent never creates demo facts
+ok 15 - live key absent never creates demo facts
+  ---
+  duration_ms: 0.152417
+  type: 'test'
+  ...
+# Subtest: budget stops before unbounded tool loop
+ok 16 - budget stops before unbounded tool loop
+  ---
+  duration_ms: 0.091042
+  type: 'test'
+  ...
+# Subtest: compression preserves citation IDs, unknowns, and raw records
+ok 17 - compression preserves citation IDs, unknowns, and raw records
+  ---
+  duration_ms: 0.28125
+  type: 'test'
+  ...
+# Subtest: user memory retrieved across research and inherited to followup
+ok 18 - user memory retrieved across research and inherited to followup
+  ---
+  duration_ms: 0.704167
+  type: 'test'
+  ...
+# Subtest: manual and rejected evidence never modifies deterministic facts
+ok 19 - manual and rejected evidence never modifies deterministic facts
+  ---
+  duration_ms: 0.278417
+  type: 'test'
+  ...
+# Subtest: comparison requires same entity and mode
+ok 20 - comparison requires same entity and mode
+  ---
+  duration_ms: 0.399708
+  type: 'test'
+  ...
+# Subtest: Fuyao contract error, entity mismatch, duplicate conflict, null preservation
+ok 21 - Fuyao contract error, entity mismatch, duplicate conflict, null preservation
+  ---
+  duration_ms: 0.175
+  type: 'test'
+  ...
+# Subtest: period mismatch is rejected and dated followup selects requested public report
+ok 22 - period mismatch is rejected and dated followup selects requested public report
+  ---
+  duration_ms: 0.098208
+  type: 'test'
+  ...
+# Subtest: compliance and malformed consent/tool parameters
+ok 23 - compliance and malformed consent/tool parameters
+  ---
+  duration_ms: 0.107041
+  type: 'test'
+  ...
+# Subtest: HTTP isolation, CSRF, ownership, saved restart and actual report download
+ok 24 - HTTP isolation, CSRF, ownership, saved restart and actual report download
+  ---
+  duration_ms: 154.341375
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 213.481583
