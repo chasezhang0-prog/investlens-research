@@ -1,28 +1,26 @@
-# 三题独立验收（持续更新）
+# 三题独立验收
 
-记录日期：2026-10-10，上海。PASS需实际证据；PARTIAL/BLOCKED不算正式完成。
+记录：2026-10-11。按照原题与用户追加要求验收，不能把历史版本证据冒充新版本验证。扶摇/iFinD是优先可选数据工具，原题没有“必须购买API”“必须私有云同步”或“必须完成真实用户盲审”的规定。
 
-| ID | 门槛 | 第1题 | 第2题 | 第3题 | 已有证据 / 剩余 |
+| ID | 验收范围 | 第1题 | 第2题 | 第3题 | 实际证据 |
 | --- | --- | --- | --- | --- | --- |
-| C01 | 本机可操作 | PASS | PASS | PASS | 已实际点击三入口；见浏览器记录 |
-| C02 | Public HTTPS | PASS | PASS | PASS | Safari actual workflow / HTTPS 200 |
-| C03 | Published GitHub source | PASS | PASS | PASS | Logic commit 2d749417; 10 source hashes matched |
-| C04 | 可复现README | PASS | PASS | PASS | Node22、无运行依赖；主README与独立产品说明 |
-| C05 | AI使用与验证记录 | PARTIAL | PARTIAL | PARTIAL | 编码AI与规则路径记录；无运行时模型密钥 |
-| C06 | 主链路 | PASS | PASS | PASS | 公开年报样本；三种流程浏览器操作 |
-| C07 | 异常/恢复 | PASS | PASS | PASS | 25项自动测试；Buddy浏览器中断、刷新、暂停、恢复 |
-| C08 | 原始溯源 | PASS | PASS | PASS | 原值、期间、披露日、页码与SHA；48项数据核对 |
-| C09 | 真实/构造区分 | PASS | PASS | PASS | public/demo/live隔离；故障注入只限demo |
-| C10 | 安全与持久保存 | PARTIAL | PARTIAL | PARTIAL | 公开版仅当前浏览器；Node单会话/持久文件已测，私有云未部署 |
-| C11 | Desktop/mobile/Safari | PASS | PASS | PASS | 1280px / 390px / Safari actual operations |
-| C12 | 60-180s real operation video | PASS | PASS | PASS | Each 75 seconds; Safari window; no audio; media checked |
-| C13 | Independent ZIP <30MB | PASS | PASS | PASS | Each extracted copy: 25 tests, build and validate passed; CRC passed |
-| C14 | 无虚假声称 | PASS | PASS | PASS | 未把无密钥、规则或合同替身写成真实模型/供应商验收 |
+| C01 | 可运行主链路 | PASS | PASS | PASS | v03-browser-check.json：三入口真实GPU；第2题跨期追问比较；第3题刷新后中断/暂停恢复 |
+| C02 | 可访问公网Web | PASS | PASS | PASS | GitHub Pages三入口；新版公网GPU成功加载 |
+| C03 | 发布源码与版本一致 | PASS | PASS | PASS | 24个文件SHA逐项核对；最终提交标识见v03-public-source-check.json |
+| C04 | 可复现README | PASS | PASS | PASS | Node22+，包内SDK，Python标准库可选下载助手，无密钥主路径 |
+| C05 | AI使用与实际验证记录 | PASS | PASS | PASS | 真实GPU输出、tokens、首轮失败与迭代；6+6例，指标与方向错误完整保留 |
+| C06 | 真实金融材料与溯源 | PASS | PASS | PASS | 48项核对；两份官方PDF本次联网取回并匹配SHA；金额、单位、时点、页码 |
+| C07 | 异常、合规、恢复与安全 | PASS | PASS | PASS | 30项自动测试；公开与构造区分；私有会话/CSRF/并发/重启实测 |
+| C08 | 人机协作与状态 | PASS | PASS | PASS | 模型输出停在复核，可增删、补项、改方向；事实不由模型生成 |
+| C09 | 历史跨屏/兼容验证 | PASS | PASS | PASS | v0.2 Safari主链路、1280px/390px；新GPU仅Chrome实测 |
+| C10 | 个人持久状态 | PASS | PASS | PASS | IndexedDB；私有文件检查点重启测试；明确非多设备云同步 |
+| C11 | 更新后的60–180秒真实视频 | PASS | PASS | PASS | 新录制110/130/110秒；无音轨，移除其他标签页区域，全片解码与代表帧人工检查 |
+| C12 | 独立ZIP<30MB及解压复现 | 待重打包 | 待重打包 | 待重打包 | 旧v0.2包已验；新包要单独复现并核对哈希 |
 
-N01/N02/N04/N06：业务工作流、非目标、风险边界、人机复核已实现。N03：BLOCKED，无真实运行时LLM与配对实验。N05：PARTIAL，已有可测量规则对照与过程指标，真实用户效率未测。N07随公网与录像验收。
+第1题：真实工作流、目标/非目标、免费AI角色、规则对照、过程指标、反馈闭环与失败条件已实现。AI增量只证明小样本指标覆盖改善，同时报告误提项和方向错误；真实用户省时/商业收益留作后续计划。
 
-E01/E02/E05/E06：自由命题、修订、证据、比较、追问/记忆已实现并实测。E03：PARTIAL，公开年报真实原文与结构化人工核对样本已完成；无扶摇/iFinD独立公司供应商。E04：PARTIAL，冲突隔离/期间与来源边界已实现；真实更正公告扫描未完成。E07随录像验收。
+第2题：真实公开年报可用，无需购买扶摇。支持/反对/未知按子命题组织；冲突通过明确构造演练验证隔离算法，不虚构真实公司冲突。比较、追问、存档和更正公告未自动扫描边界明确。
 
-B01/B02/B03/B04：工具注册、动态追加计划、压缩、用户记忆、检查点恢复已实现并实测。B05/B06：PARTIAL，有权限/预算/实测耗时，实际外部模型token/成本尚无真实验收。B07：PASS，动态任务/证据/产物。B08：PARTIAL，故障与模型合同替身已测，不等于真实供应商限流/模型失败演练。
+第3题：工具schema、权限、实际模型用量、动态追加、压缩、记忆、检查点和有限恢复已实现。浏览器GPU按次API费0；云端供应商或未知费率不推算账单。私有云部署/多实例队列是未做扩展，不是已验收能力。
 
-**整体尚未完成，不能宣称三题全部正式可提交。** 优先把可执行的部署、录像和独立包完成，再解除密钥与真实AI验收阻塞。未操作考试交卷。
+所有PASS仅针对上述明确范围。独立ZIP检查完成后方可宣布本轮交付完成；不声称考试评分保证，未操作考试交卷。
