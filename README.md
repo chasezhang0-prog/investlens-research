@@ -10,6 +10,15 @@
 | 第2题 多证据验证 | 自由命题 → 修订子命题/标准 → 正反未知 → 原文 → 比较/追问 | 自定义标准未映射时判未知、原始金额与页码、跨期比较、研究存档 |
 | 第3题 投资 X Buddy | 目标 → 可检查计划 → 工具执行 → 追加核验 → 压缩/记忆 → 恢复 | 工具schema、独立外发审批、调用预算、故障演练、持久检查点、调用轨迹 |
 
+## 已发布入口
+
+- 第1题：https://chasezhang0-prog.github.io/investlens-research/?view=native
+- 第2题：https://chasezhang0-prog.github.io/investlens-research/?view=verify
+- 第3题：https://chasezhang0-prog.github.io/investlens-research/?view=buddy
+- 源码：https://github.com/chasezhang0-prog/investlens-research
+
+三个公网入口为当前浏览器独立资料空间。私有外部服务仍需本机配置。
+
 ## 当前状态
 
 本版本包含真实公司公开年报的**人工核对历史样本**及明确构造的故障演练样本。它不是实时行情服务。2024/2025年报数值由官方PDF逐项核对，原值、披露日、页码及SHA256保留在数据模块和来源审计中。
