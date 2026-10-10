@@ -1,0 +1,113 @@
+[
+  {
+    "question": 1,
+    "crc": "PASS",
+    "independent_extract_run": "PASS",
+    "checks": [
+      {
+        "command": [
+          "node",
+          "--test",
+          "test.mjs"
+        ],
+        "exit_code": 0,
+        "test_pass": 25
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "test_pass": null
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "validate"
+        ],
+        "exit_code": 0,
+        "test_pass": null
+      }
+    ],
+    "bytes": 2104966,
+    "final_bytes": 2107499,
+    "final_sha256": "5dd7247e74100e1eca809590a94af4505efeecbd69007d30f7457e9e541a0c48"
+  },
+  {
+    "question": 2,
+    "crc": "PASS",
+    "independent_extract_run": "PASS",
+    "checks": [
+      {
+        "command": [
+          "node",
+          "--test",
+          "test.mjs"
+        ],
+        "exit_code": 0,
+        "test_pass": 25
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "test_pass": null
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "validate"
+        ],
+        "exit_code": 0,
+        "test_pass": null
+      }
+    ],
+    "bytes": 2091318,
+    "final_bytes": 2093847,
+    "final_sha256": "7fa5e708ee09366f678a3f7117bb95a66a1f9bb1fda20042a1639f07a2569290"
+  },
+  {
+    "question": 3,
+    "crc": "PASS",
+    "independent_extract_run": "PASS",
+    "checks": [
+      {
+        "command": [
+          "node",
+          "--test",
+          "test.mjs"
+        ],
+        "exit_code": 0,
+        "test_pass": 25
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "test_pass": null
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "validate"
+        ],
+        "exit_code": 0,
+        "test_pass": null
+      }
+    ],
+    "bytes": 2017195,
+    "final_bytes": 2019724,
+    "final_sha256": "495887c7ad9d0e7d8571b1ad5cd90f50201edd4cec864187a05bcec7fd8e5790"
+  }
+]

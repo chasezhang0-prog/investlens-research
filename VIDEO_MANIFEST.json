@@ -1,0 +1,41 @@
+[
+  {
+    "question": 1,
+    "file": "第1题_盈利质量初筛.mp4",
+    "seconds": 75,
+    "bytes": 1291569,
+    "raw_file": "three-question-continuous.mov",
+    "raw_offset_seconds": 199.696,
+    "operation_start": "2026-10-10T13:37:24.696Z",
+    "operation_end": "2026-10-10T13:37:32.367Z",
+    "audio": "none",
+    "verified_seconds": 75.0,
+    "sha256": "1d0300b6e4de369cd6985c711134486dc7a537d6a0e50e60817c8d8f53facadc"
+  },
+  {
+    "question": 2,
+    "file": "第2题_命题验证室.mp4",
+    "seconds": 75,
+    "bytes": 1418057,
+    "raw_file": "three-question-continuous.mov",
+    "raw_offset_seconds": 434.924,
+    "operation_start": "2026-10-10T13:41:19.924Z",
+    "operation_end": "2026-10-10T13:41:29.104Z",
+    "audio": "none",
+    "verified_seconds": 75.0,
+    "sha256": "7273f62d4c62ce0d39bddb591823894066e10fc01e2bfce20a1fd5a997adca6b"
+  },
+  {
+    "question": 3,
+    "file": "第3题_投资XBuddy.mp4",
+    "seconds": 75,
+    "bytes": 1156172,
+    "raw_file": "buddy-final.mov",
+    "raw_offset_seconds": 47.472,
+    "operation_start": "2026-10-10T14:10:33.472Z",
+    "operation_end": "2026-10-10T14:10:40.664Z",
+    "audio": "none",
+    "verified_seconds": 75.0,
+    "sha256": "dcca3466e14fcbd1bb0c84db8a63f039e3101129e02f5e19ec519c7abc202e0b"
+  }
+]

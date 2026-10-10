@@ -87,3 +87,6 @@ node --env-file=.env server.mjs
 - `DATA_AUDIT.md`：公开披露原文、页码、哈希与48项数据检查。
 
 源文件可按MIT许可证使用；原始披露与第三方数据归各权利人，仓库不再分发完整年报或受限供应商资料。不得利用本产品生成收益承诺、确定性涨跌预测、买卖建议或自动交易。
+
+
+Actual 75-second videos are included in each independent local submission ZIP. GitHub browser upload of the video files failed; no public video link is claimed.

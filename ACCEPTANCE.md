@@ -5,18 +5,18 @@
 | ID | 门槛 | 第1题 | 第2题 | 第3题 | 已有证据 / 剩余 |
 | --- | --- | --- | --- | --- | --- |
 | C01 | 本机可操作 | PASS | PASS | PASS | 已实际点击三入口；见浏览器记录 |
-| C02 | 公网HTTPS三深链 | 待验 | 待验 | 待验 | 发布后才能填写 |
-| C03 | GitHub源码当前commit | PARTIAL | PARTIAL | PARTIAL | 用户公开仓库已创建，源码上传待完成 |
+| C02 | Public HTTPS | PASS | PASS | PASS | Safari actual workflow / HTTPS 200 |
+| C03 | Published GitHub source | PASS | PASS | PASS | Logic commit 2d749417; 10 source hashes matched |
 | C04 | 可复现README | PASS | PASS | PASS | Node22、无运行依赖；主README与独立产品说明 |
 | C05 | AI使用与验证记录 | PARTIAL | PARTIAL | PARTIAL | 编码AI与规则路径记录；无运行时模型密钥 |
 | C06 | 主链路 | PASS | PASS | PASS | 公开年报样本；三种流程浏览器操作 |
-| C07 | 异常/恢复 | PASS | PASS | PASS | 24项自动测试；Buddy浏览器中断、刷新、暂停、恢复 |
+| C07 | 异常/恢复 | PASS | PASS | PASS | 25项自动测试；Buddy浏览器中断、刷新、暂停、恢复 |
 | C08 | 原始溯源 | PASS | PASS | PASS | 原值、期间、披露日、页码与SHA；48项数据核对 |
 | C09 | 真实/构造区分 | PASS | PASS | PASS | public/demo/live隔离；故障注入只限demo |
 | C10 | 安全与持久保存 | PARTIAL | PARTIAL | PARTIAL | 公开版仅当前浏览器；Node单会话/持久文件已测，私有云未部署 |
-| C11 | 交互体验 | PARTIAL | PARTIAL | PARTIAL | IAB已实测；桌面/手机和Safari待记录 |
-| C12 | 60–180秒操作视频 | 待录 | 待录 | 待录 | 不能用截图代替 |
-| C13 | 每题独立<30MB包 | 待打包 | 待打包 | 待打包 | 终版须包含视频/真实网址等 |
+| C11 | Desktop/mobile/Safari | PASS | PASS | PASS | 1280px / 390px / Safari actual operations |
+| C12 | 60-180s real operation video | PASS | PASS | PASS | Each 75 seconds; Safari window; no audio; media checked |
+| C13 | Independent ZIP <30MB | PASS | PASS | PASS | Each extracted copy: 25 tests, build and validate passed; CRC passed |
 | C14 | 无虚假声称 | PASS | PASS | PASS | 未把无密钥、规则或合同替身写成真实模型/供应商验收 |
 
 N01/N02/N04/N06：业务工作流、非目标、风险边界、人机复核已实现。N03：BLOCKED，无真实运行时LLM与配对实验。N05：PARTIAL，已有可测量规则对照与过程指标，真实用户效率未测。N07随公网与录像验收。
