@@ -1,15 +1,23 @@
 {
   "name": "investlens-research",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.mjs",
+    "start": "node preview.mjs",
     "test": "node --test test.mjs",
     "build": "node build.mjs",
-    "validate": "node validate-artifact.mjs"
+    "validate": "node validate-artifact.mjs",
+    "private": "node server.mjs",
+    "bundle-ai": "esbuild node_modules/@mlc-ai/web-llm/lib/index.js --bundle --minify --format=esm --outfile=webllm.js"
   },
   "engines": {
     "node": ">=22"
+  },
+  "dependencies": {
+    "@mlc-ai/web-llm": "0.2.85"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
   }
 }

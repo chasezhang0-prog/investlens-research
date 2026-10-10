@@ -4,6 +4,7 @@
 .session-key
 .runtime/
 node_modules/
+.model-cache/
 dist/
 artifacts/verification/source/*.pdf
 artifacts/verification/source/*.png
